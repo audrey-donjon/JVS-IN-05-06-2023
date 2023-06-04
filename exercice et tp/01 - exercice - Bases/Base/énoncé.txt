@@ -1,0 +1,10 @@
+Énoncé :
+
+- Récupérer les ressources sur Git : https://github.com/audrey-donjon/JVS-IN-05-06-2023.git
+Ou sur le drive : https://drive.google.com/drive/folders/1fs0SM1u80gBJyBzkhsnvI5C5zkdB2Pht?usp=sharing
+
+Définissez une variable contenant une adresse mail, une variable contenant un mot de passe.
+
+Demander à l’utilisateur de rentrer une première valeur qui sera l’adresse mail, puis demander lui le mot de passe.
+
+Si le mail et le mot de passe ne corresponde pas à ce que vous aviez définit dans vos variables continuez à demander le mail et le mot de passe à l’utilisateur sinon afficher un message d’alert « Bienvenue dans votre espace »
