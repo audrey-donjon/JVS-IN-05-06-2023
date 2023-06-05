@@ -1,0 +1,15 @@
+Créer un Objet en Javascript qui sera :
+
+Un personnage 
+avec 2 attributs : 
+un attribut sur le nom du personnage (ex : Alice, Charlotte, Jean…), 
+un attribut sur l’âge du personnage (ex : 28, 40, 18…),
+
+avec 1 méthode :
+Une méthode sePresenter qui produira un message dans la console (« Bonjour, je suis nom et j'ai age ans.») 
+
+Bonus :
+Transformer l’objet créer en une classe pour utiliser la POO
+
+Récupérer les ressources sur Git : https://github.com/audrey-donjon/JVS-IN-05-06-2023.git
+Ou sur le drive : https://drive.google.com/drive/folders/1fs0SM1u80gBJyBzkhsnvI5C5zkdB2Pht?usp=sharing

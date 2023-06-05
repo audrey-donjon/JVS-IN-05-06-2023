@@ -1,0 +1,13 @@
+Énoncé :
+
+Récupérer les ressources sur Git : https://github.com/audrey-donjon/JVS-IN-05-06-2023.git
+Ou sur le drive : https://drive.google.com/drive/folders/1fs0SM1u80gBJyBzkhsnvI5C5zkdB2Pht?usp=sharing
+
+Écrire un programme Javascript qui :
+
+- Va demander confirmation à l’utilisateur si il souhaite ajouter un nouveau prénom puis va demander « Quel prénom souhaitez-vous ajouter à la liste ? »
+
+- Après avoir rentrer le prénom, il lui sera re demandé si il souhaite ajouter un nouveau prénom.
+
+- Tant que l’utilisateur entrera un prénom à ajouter, rajouter ce prénom dans un array et l’afficher dans la console.
+

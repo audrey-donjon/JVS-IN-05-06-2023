@@ -1,0 +1,8 @@
+
+- Récupérer les ressources sur Git : https://github.com/audrey-donjon/JVS-IN-05-06-2023.git
+Ou sur le drive : https://drive.google.com/drive/folders/1fs0SM1u80gBJyBzkhsnvI5C5zkdB2Pht?usp=sharing
+
+Énoncé :
+
+Écrire une fonction Javascript dont le but sera de retourner le résultat d’une division entre 2 chiffres qu’auront rentré l’utilisateur à notre demande (le premier correspondant au nombre de kilomètre parcourue et le deuxième le temps mis à parcourir cette distance) et ensuite afficher dans un message d’alert avec le texte suivant en utilisant la fonction :
+Votre vitesse est de  ………….  m/s'.
