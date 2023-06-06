@@ -1,0 +1,23 @@
+main h1#main-title{
+    color: red;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#main-title{
+    color: rgb(0, 255, 30);
+}
+
+
+.color{
+    color: rgb(128, 0, 128);
+    background-color: antiquewhite;
+    height: 200px;
+}
+
+.color-dark{
+    color: white;
+    background-color: black;
+}
