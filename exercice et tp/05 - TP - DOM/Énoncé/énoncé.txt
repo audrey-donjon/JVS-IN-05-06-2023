@@ -1,0 +1,31 @@
+Énoncé : Création d’une partie d’une page HTML en manipulant le DOM
+
+Le fichier HTML sera donné et à ne pas modifier
+Le fichier CSS sera donné et également et à ne pas modifier
+
+Récupérer les ressources sur Git : https://github.com/audrey-donjon/JVS-IN-05-06-2023.git
+Ou sur le drive : https://drive.google.com/drive/folders/1fs0SM1u80gBJyBzkhsnvI5C5zkdB2Pht?usp=sharing
+
+Dans votre fichier JS :
+
+- Créer un Nœud qui se situera dans le body et qui sera l’élément html ‘footer’
+    Dans ce nœud on devra y trouver les éléments suivant :
+        -> Un premier élément nav avec la classe css social_nav dans le footer
+            -> Un élément ul dans cette nav avec 3 li à l’intérieur et pour chaque li :
+                -> Le premier li avec à l’intérieur un élément a qui contient 2 attributs href=’’#’’ et title=‘’Facebook’’
+                    -> Dans l’élément a, il y a un élément i avec 2 class ‘’fa-brands’’ et ‘’fa-facebook‘’
+                -> Le deuxième li avec à l’intérieur un élément a qui contient 2  attributs href=’’#’’ et title=‘’Instagram’’
+                    -> Dans l’élément a, il y a un élément i avec 2 class ‘’fa-brands’’ et ‘’fa-intagram‘’
+                -> Le troisième li avec à l’intérieur un élément a qui contient 2  attributs href=’’#’’ et title=‘’Pinterest’’
+                    -> Dans l’élément a, il y a un élément i avec 2 class ‘’fa-brands’’ et ‘’fa-pinterest‘’
+
+        -> Un Deuxième élément nav avec la classe css other_nav dans le footer après la première nav
+            -> Un élément ul dans cette nav avec 3 li à l’intérieur et pour chaque li :
+                -> Le premier li qui contient 1 class ‘’copyright’’
+                    -> Dans l’élément li, il y a un élément  texte : @copyright HedghogInLove 
+                -> Le deuxième li avec à l’intérieur un élément a qui contient 1  attribut href=’’#’’
+                    -> Dans l’élément a, il y a un texte : C.G.U 
+                -> Le troisième li avec à l’intérieur un élément a qui contient 1  attribut href=’’#’’
+                    -> Dans l’élément a, il y a un texte : Mentions légales 
+
+Si vous respectez le plan décrits avant pour construire le Footer depuis votre fichier JS, vous aurez le même résultat visuel que le screen qui vous sera fournit.
