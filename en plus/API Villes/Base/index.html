@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 4 - API Villes</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <h1 class="center">Récupérer les infos d'une ville à partir de l'api :<br><a href="https://api.gouv.fr/api/api-geo.html">https://api.gouv.fr/api/api-geo.html</a></h1>
+
+    <p class="center url-text">URL de base :<br>https://geo.api.gouv.fr/communes/?nom=VILLE</p>
+
+    <form action="https://geo.api.gouv.fr/communes/" method="GET" id="search-form">
+        <input type="search" name="nom" placeholder="Ville recherchée">
+        <input type="submit">
+    </form>
+
+    <!-- Div affichant les résultats de recherche -->
+    <div class="view"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

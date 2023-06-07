@@ -1,0 +1,61 @@
+.center{
+    text-align: center;
+}
+
+#search-form{
+    text-align: center;
+}
+
+.url-text{
+    font-size: 2rem;
+}
+
+.view{
+    border: 2px solid black;
+    min-height: 300px;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color:green;
+}
+
+.result{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.view table{
+    width: 100%;
+    text-align: center;
+}
+
+.view table th,
+.view table td
+{
+    padding: 15px;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay img{
+    width: 300px;
+}

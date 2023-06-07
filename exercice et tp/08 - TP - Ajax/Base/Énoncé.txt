@@ -1,0 +1,15 @@
+Exercice AJAX :
+
+
+DEMO en ligne : https://codexweb.fr/demo/ajax/animaux/
+
+
+1) Récupérer les ressources sur Git : https://github.com/audrey-donjon/JVS-IN-05-06-2023.git
+Ou sur le drive : https://drive.google.com/drive/folders/1fs0SM1u80gBJyBzkhsnvI5C5zkdB2Pht?usp=sharing
+
+2) Si un bouton des 3 boutons est cliqué, utiliser une requête AJAX pour récupérer le contenu du fichier de l'animal correspondant dans "content" et l'insérer dans la div.
+    Ex : le bouton "Chat" est cliqué, il faut faire une requête AJAX sur le fichier "content/chat.html", puis intégrer le contenu de ce fichier dans la div.
+
+    Pensez à exploiter les datasets pour cet exercice.
+
+Bonus : Essayez de ne pas dupliquer 3 fois le même code pour les 3 boutons !

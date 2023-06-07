@@ -1,0 +1,24 @@
+TP : API villes
+
+
+DEMO en ligne : https://codexweb.fr/demo/ajax/api-villes/
+Aide cours :
+- https://codexweb.fr/ajax/05%20-%20AJAX%20et%20donn%C3%A9es%20GET.html
+- https://codexweb.fr/ajax/04%20-%20AJAX%20et%20donn%C3%A9es%20POST.html
+
+Conseil : Utilisez massivement les "console.log" sur "data" ainsi que la console réseau de votre navigateur pour explorer et voir la structure des données des villes que l'API renvoie !
+
+1) Une base vous sera fournit avec le Fichier CSS et HTML à ne pas modifier.
+
+2) Dans votre fichier JS : 
+
+Si le formulaire est envoyé :
+
+    - Empêcher la redirection naturelle du formulaire (empêcher le comportement par défaut)
+    - Vérifier que le champ contient au moins un caractère, sinon afficher un message rouge dans la div du type "Champ vide, veuillez mettre au moins 1 caractère !"
+    - Si le champ n'est pas vide, faire une requête AJAX GET sur l'URL de l'API : "https://geo.api.gouv.fr/communes/?nom=VILLE" , en remplaçant "VILLE" dans l'URL par le nom entré dans le champ du formulaire
+    - En cas de réussite de la requête AJAX, compter combien de ville l'API vous a renvoyé, et s'il y a 0 résultat, afficher un message rouge dans la div du type "Aucun résultat". Affichez également le nombre de résultats en dessous du formulaire de recherche.
+    - S'il y a au moins une ville, créer un tableau HTML et l'insérer dans la div. Chaque ville devra être affichée dans le tableau.
+
+
+3) Durant toute la durée de la requête AJAX, afficher un overlay sur toute la page avec une icône de chargement (fournit dans le dossier images). ( l'overlay sera à créer dans une div contenant une classe "overlay" avec une balise img et il devra être placé dans le body)
